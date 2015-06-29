@@ -7,6 +7,10 @@ import (
 	_ "strings"
 )
 
+/*
+ * this is a main function
+ */
+
 func main() {
 	rawurl := "http://115.com?A=1&B=3&C=4&=5"
 	escape_url := url.QueryEscape(rawurl)
